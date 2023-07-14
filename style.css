@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    display: flex;
+}
+.MainCard {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    background: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.Myphoto{
+    width: 200px;
+    height: 240px;
+    border-radius: 100px
+}
+p{
+    margin-top: 0;
+}
