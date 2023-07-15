@@ -82,3 +82,14 @@ footer {
     bottom: 5px;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .MainCard {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .Myphoto {
+        width: 150px;
+        height: 180px;
+    }
+}
