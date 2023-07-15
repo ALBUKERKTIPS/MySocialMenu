@@ -9,9 +9,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-45deg, #000000, #330000, #550000, #770000, #330000, #550000);
+    background: linear-gradient(-45deg, #000000, #330000, #cc0000, #FF0000, #330000, #550000);
 	background-size: 400% 400%;
-	animation: gradient 4s ease infinite;
+	animation: gradient 6s ease infinite;
 	height: 100vh;
 }
 @keyframes gradient{
@@ -84,7 +84,7 @@ footer {
 }
 @media only screen and (max-width: 600px) {
     .MainCard {
-        width: 100%;
+        width: 80%;
         max-width: 400px;
     }
 
