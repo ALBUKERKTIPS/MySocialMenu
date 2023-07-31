@@ -11,7 +11,7 @@ body{
     align-items: center;
     background: linear-gradient(-45deg, #000000, #330000, #cc0000, #FF0000, #330000, #550000);
 	background-size: 400% 400%;
-	animation: gradient 6s ease infinite;
+	animation: gradient 4s ease infinite;
 	height: 100vh;
 }
 @keyframes gradient{
@@ -77,6 +77,20 @@ body{
     color: red;
     border: 1px solid red;
 }
+.vibrate-link {
+    animation: pulse 1s infinite ease-in-out;
+    transform-origin: center;
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+
 footer {
     position: absolute;
     bottom: 5px;
