@@ -29,7 +29,6 @@ main {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    min-width: 350px;
     border-radius: 20px;
     color: white;
     gap: 15px;
