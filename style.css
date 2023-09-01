@@ -28,7 +28,7 @@ main {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 70%;
+    width: 350px;
     height: auto;
     text-align: center;
     border-radius: 20px;
@@ -129,4 +129,15 @@ section{
 .made-by{
     font-size: 10px;
     color: gray;
+}
+@media (max-width: 400px) {
+    main{
+        width: 80%;
+    }
+    .bt1,
+    .bt2,
+    .bt3{
+        width: auto;
+        min-width: 194px;
+    }
 }
